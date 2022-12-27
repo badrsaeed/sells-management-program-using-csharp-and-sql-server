@@ -1,0 +1,12 @@
+{
+  "runtimeOptions": {
+    "tfm": "netcoreapp4.7.1",
+    "additionalProbingPaths": [
+      "C:\\Users\\c.city\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\c.city\\.nuget\\packages"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

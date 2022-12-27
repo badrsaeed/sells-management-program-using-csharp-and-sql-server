@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form_Login.cs">
+    <Compile Update="PL\Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\FRM_ADD_PRODUCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\FRM_Preview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PL\FRM_Products_search.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PL\main_form.cs">

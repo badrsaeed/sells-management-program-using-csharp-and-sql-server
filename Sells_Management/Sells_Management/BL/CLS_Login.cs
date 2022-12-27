@@ -14,18 +14,17 @@ namespace Sells_Management.BL
         {
             DataAccessLayer DAL = new DataAccessLayer();
 
-            SqlParameter[] param = new SqlParameter[2];
+            SqlParameter[] sp = new SqlParameter[2];
+            sp[0] = new SqlParameter("@ID",SqlDbType.VarChar,50);
+            sp[1] = new SqlParameter("@PWD",SqlDbType.VarChar,50);
 
-            param[0] = new SqlParameter("@ID", SqlDbType.VarChar, 50);
-            param[0].Value = ID;
-
-            param[1] = new SqlParameter("@PWD", SqlDbType.VarChar, 50);
-            param[1].Value = PWD;
-
-            DAL.Open();
+            sp[0].Value = ID;
+            sp[1].Value = PWD;
 
             DataTable dt = new DataTable();
-            dt = DAL.SelectData("sp_Login", param);
+            dt = DAL.SelectData("sp_Login", sp);
+            DAL.Close();
+
             return dt;
 
         }

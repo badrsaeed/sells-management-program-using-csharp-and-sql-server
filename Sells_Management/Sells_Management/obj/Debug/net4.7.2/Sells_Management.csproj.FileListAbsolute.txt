@@ -1,0 +1,13 @@
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.csproj.AssemblyReference.cache
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.PL.Form_Login.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.PL.FRM_ADD_PRODUCT.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.PL.FRM_Preview.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.PL.FRM_Products_search.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.PL.main_form.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.Properties.Resources.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.csproj.GenerateResource.cache
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.AssemblyInfoInputs.cache
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.AssemblyInfo.cs
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\net4.7.2\Sells_Management.csproj.CoreCompileInputs.cache

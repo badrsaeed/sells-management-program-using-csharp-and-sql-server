@@ -21,3 +21,8 @@ D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcore
 D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.pdb
 D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.genruntimeconfig.cache
 D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.csproj.AssemblyReference.cache
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.main_form.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.FRM_ADD_PRODUCT.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.Properties.Resources.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.FRM_Products_search.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.FRM_Preview.resources

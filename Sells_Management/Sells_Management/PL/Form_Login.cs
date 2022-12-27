@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Sells_Management.BL;
+using Sells_Management.PL;
 
 namespace Sells_Management
 {
@@ -16,6 +17,7 @@ namespace Sells_Management
         public Form_Login()
         {
             InitializeComponent();
+            txtID.Focus();
         }
 
         private void Form_Login_Load(object sender, EventArgs e)
@@ -34,7 +36,15 @@ namespace Sells_Management
         {
             DataTable dt = login.Login(txtID.Text, txtPWD.Text);
             if (dt.Rows.Count > 0)
-                MessageBox.Show("Login Successfully!");
+            {
+                main_form.getMAinForm.المنتجاتToolStripMenuItem.Enabled = true;
+                main_form.getMAinForm.المستخدمونToolStripMenuItem.Enabled = true;
+                main_form.getMAinForm.العملاءToolStripMenuItem.Enabled = true;
+                main_form.getMAinForm.استعادةنسخةمحفوظةToolStripMenuItem.Enabled = true;
+                main_form.getMAinForm.انشاءنسخةاحتياطيةToolStripMenuItem.Enabled = true;
+
+                this.Close();
+            }
             else
                 MessageBox.Show("Login Faild");
         }

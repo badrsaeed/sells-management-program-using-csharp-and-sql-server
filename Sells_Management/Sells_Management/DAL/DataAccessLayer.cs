@@ -38,9 +38,9 @@ namespace Sells_Management.DAL
         {
             // object to take the query and save it
             SqlCommand sqlcmd = new SqlCommand();
+            sqlcmd.Connection = sqlConnection;
             sqlcmd.CommandType = CommandType.StoredProcedure;
             sqlcmd.CommandText = storedProcedure;
-            sqlcmd.Connection = sqlConnection;
             //check if the param in empty or has parameters if it has we will store it at sqlcmd
             if (!(param is null))
             {

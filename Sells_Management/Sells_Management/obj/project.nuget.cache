@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bWoL6Ax6NLIeecN37tRkQVjbmt9eikkKWUbuZ9ltHSgzg7y/vlVwMFCjKMomX9vTL6YfzYavVBN6ZqkOFh0thg==",
+  "dgSpecHash": "aZQdENawNW6+I4UnH8M8h87jsjMrvyqAqPy97R7XTkcHbDjb270ZbUvrVhTGJ4z8ElLpnwgzP8qNM6tPWnkKVA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Sells Management\\Sells_Management\\Sells_Management\\Sells_Management.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,8 @@
     "C:\\Users\\c.city\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\c.city\\.nuget\\packages\\system.data.sqlclient\\4.8.4\\system.data.sqlclient.4.8.4.nupkg.sha512",
     "C:\\Users\\c.city\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\c.city\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\c.city\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\c.city\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
