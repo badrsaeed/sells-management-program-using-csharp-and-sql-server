@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sells_Management.BL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,7 +55,9 @@ namespace Sells_Management.PL
 
         private void ادارةالعملاءToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FRM_CustomersManagement customersManagement = new FRM_CustomersManagement();
+            customersManagement.ShowDialog();
+           
         }
 
         private void اضافةمنتجToolStripMenuItem_Click(object sender, EventArgs e)

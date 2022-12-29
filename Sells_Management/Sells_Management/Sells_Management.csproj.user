@@ -10,6 +10,9 @@
     <Compile Update="PL\FRM_Categories.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PL\FRM_CustomersManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PL\FRM_Preview.cs">
       <SubType>Form</SubType>
     </Compile>
