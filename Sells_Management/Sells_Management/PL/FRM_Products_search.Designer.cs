@@ -34,9 +34,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button8 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.EditProduct_btn = new System.Windows.Forms.Button();
             this.DeleteProduvt_btn = new System.Windows.Forms.Button();
@@ -90,9 +87,6 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Controls.Add(this.button6);
-            this.groupBox2.Controls.Add(this.button7);
-            this.groupBox2.Controls.Add(this.button5);
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.EditProduct_btn);
             this.groupBox2.Controls.Add(this.DeleteProduvt_btn);
@@ -107,43 +101,17 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(548, 82);
+            this.button8.Location = new System.Drawing.Point(464, 91);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(96, 29);
             this.button8.TabIndex = 1;
             this.button8.Text = "Exit";
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(819, 36);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(159, 29);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Print All Products";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(371, 82);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(159, 29);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "Save At Excel File";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(642, 36);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(159, 29);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "Print The Peoduct";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(495, 36);
+            this.button4.Location = new System.Drawing.Point(799, 35);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(129, 29);
             this.button4.TabIndex = 1;
@@ -153,7 +121,7 @@
             // 
             // EditProduct_btn
             // 
-            this.EditProduct_btn.Location = new System.Drawing.Point(348, 36);
+            this.EditProduct_btn.Location = new System.Drawing.Point(567, 35);
             this.EditProduct_btn.Name = "EditProduct_btn";
             this.EditProduct_btn.Size = new System.Drawing.Size(129, 29);
             this.EditProduct_btn.TabIndex = 1;
@@ -163,7 +131,7 @@
             // 
             // DeleteProduvt_btn
             // 
-            this.DeleteProduvt_btn.Location = new System.Drawing.Point(201, 36);
+            this.DeleteProduvt_btn.Location = new System.Drawing.Point(335, 35);
             this.DeleteProduvt_btn.Name = "DeleteProduvt_btn";
             this.DeleteProduvt_btn.Size = new System.Drawing.Size(129, 29);
             this.DeleteProduvt_btn.TabIndex = 1;
@@ -173,7 +141,7 @@
             // 
             // AddProduct_btn
             // 
-            this.AddProduct_btn.Location = new System.Drawing.Point(37, 36);
+            this.AddProduct_btn.Location = new System.Drawing.Point(86, 35);
             this.AddProduct_btn.Name = "AddProduct_btn";
             this.AddProduct_btn.Size = new System.Drawing.Size(146, 29);
             this.AddProduct_btn.TabIndex = 0;
@@ -207,14 +175,11 @@
         private System.Windows.Forms.TextBox search_txt;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button EditProduct_btn;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button DeleteProduvt_btn;
         private System.Windows.Forms.Button AddProduct_btn;
         public System.Windows.Forms.DataGridView dataGridView1;

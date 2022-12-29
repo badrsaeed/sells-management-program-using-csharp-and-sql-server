@@ -68,5 +68,11 @@ namespace Sells_Management.PL
             FRM_Products_search fRM_Products_Search = new FRM_Products_search();
             fRM_Products_Search.ShowDialog();
         }
+
+        private void ادارةالأصنافToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FRM_Categories frm_Categories = new FRM_Categories();
+            frm_Categories.ShowDialog();
+        }
     }
 }

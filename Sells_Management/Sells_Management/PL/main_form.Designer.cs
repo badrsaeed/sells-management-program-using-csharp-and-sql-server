@@ -38,7 +38,6 @@ namespace Sells_Management.PL
             this.المنتجاتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.اضافةمنتجToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.إدارةالمنتجاتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.اضافةصنفجديدToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ادارةالأصنافToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.العملاءToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.اضافةعميلجديدToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -107,7 +106,6 @@ namespace Sells_Management.PL
             this.المنتجاتToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.اضافةمنتجToolStripMenuItem,
             this.إدارةالمنتجاتToolStripMenuItem,
-            this.اضافةصنفجديدToolStripMenuItem,
             this.ادارةالأصنافToolStripMenuItem});
             this.المنتجاتToolStripMenuItem.Name = "المنتجاتToolStripMenuItem";
             this.المنتجاتToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
@@ -128,17 +126,12 @@ namespace Sells_Management.PL
             this.إدارةالمنتجاتToolStripMenuItem.Text = "Product Management";
             this.إدارةالمنتجاتToolStripMenuItem.Click += new System.EventHandler(this.إدارةالمنتجاتToolStripMenuItem_Click);
             // 
-            // اضافةصنفجديدToolStripMenuItem
-            // 
-            this.اضافةصنفجديدToolStripMenuItem.Name = "اضافةصنفجديدToolStripMenuItem";
-            this.اضافةصنفجديدToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
-            this.اضافةصنفجديدToolStripMenuItem.Text = "Add New Category";
-            // 
             // ادارةالأصنافToolStripMenuItem
             // 
             this.ادارةالأصنافToolStripMenuItem.Name = "ادارةالأصنافToolStripMenuItem";
             this.ادارةالأصنافToolStripMenuItem.Size = new System.Drawing.Size(255, 26);
             this.ادارةالأصنافToolStripMenuItem.Text = "Categories Management";
+            this.ادارةالأصنافToolStripMenuItem.Click += new System.EventHandler(this.ادارةالأصنافToolStripMenuItem_Click);
             // 
             // العملاءToolStripMenuItem
             // 
@@ -227,7 +220,6 @@ namespace Sells_Management.PL
         private System.Windows.Forms.ToolStripMenuItem تسجيلالخروجToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem اضافةمنتجToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem إدارةالمنتجاتToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem اضافةصنفجديدToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ادارةالأصنافToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem اضافةعميلجديدToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ادارةالعملاءToolStripMenuItem;

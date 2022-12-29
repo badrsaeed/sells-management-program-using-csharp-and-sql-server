@@ -26,3 +26,4 @@ D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcore
 D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.Properties.Resources.resources
 D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.FRM_Products_search.resources
 D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.FRM_Preview.resources
+D:\Projects\Sells Management\Sells_Management\Sells_Management\obj\Debug\netcoreapp3.1\Sells_Management.PL.FRM_Categories.resources

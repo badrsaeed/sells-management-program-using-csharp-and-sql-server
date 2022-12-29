@@ -18,7 +18,7 @@ namespace Sells_Management
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FRM_Products_search());
+            Application.Run(new main_form());
         }
     }
 }

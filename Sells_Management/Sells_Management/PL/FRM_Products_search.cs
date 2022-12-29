@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Cryptography;
 using System.Text;
@@ -123,6 +124,16 @@ namespace Sells_Management.PL
             var stream = new MemoryStream(image);
             frm_preview.productImageBox.Image = Image.FromStream(stream);
             frm_preview.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ExportOptions exportOptions = new ExportOptions();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
